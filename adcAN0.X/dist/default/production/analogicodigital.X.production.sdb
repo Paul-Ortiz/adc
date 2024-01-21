@@ -1,0 +1,89 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 E:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 E:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 E:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"22 C:\Users\Paul\MPLABXProjects\analogicodigital.X\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S90 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"357 E:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f877a.h
+[u S99 . 1 `S90 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES99  1 e 1 @8 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+[s S42 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 GO_nDONE 1 0 :1:2 
+`uc 1 CHS 1 0 :3:3 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1190
+[s S48 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO 1 0 :1:2 
+`uc 1 CHS0 1 0 :1:3 
+`uc 1 CHS1 1 0 :1:4 
+`uc 1 CHS2 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S56 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nDONE 1 0 :1:2 
+]
+[s S59 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO_DONE 1 0 :1:2 
+]
+[u S62 . 1 `S42 1 . 1 0 `S48 1 . 1 0 `S56 1 . 1 0 `S59 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES62  1 e 1 @31 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2387
+[v _ADCS0 ADCS0 `VEb  1 e 0 @254 ]
+"2390
+[v _ADCS1 ADCS1 `VEb  1 e 0 @255 ]
+"2393
+[v _ADCS2 ADCS2 `VEb  1 e 0 @1278 ]
+"2399
+[v _ADFM ADFM `VEb  1 e 0 @1279 ]
+"2408
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"2486
+[v _CHS0 CHS0 `VEb  1 e 0 @251 ]
+"2489
+[v _CHS1 CHS1 `VEb  1 e 0 @252 ]
+"2492
+[v _CHS2 CHS2 `VEb  1 e 0 @253 ]
+"2579
+[v _GO_DONE GO_DONE `VEb  1 e 0 @250 ]
+"2621
+[v _PCFG0 PCFG0 `VEb  1 e 0 @1272 ]
+"2624
+[v _PCFG1 PCFG1 `VEb  1 e 0 @1273 ]
+"2627
+[v _PCFG2 PCFG2 `VEb  1 e 0 @1274 ]
+"2630
+[v _PCFG3 PCFG3 `VEb  1 e 0 @1275 ]
+"2987
+[v _TRISD0 TRISD0 `VEb  1 e 0 @1088 ]
+"22 C:\Users\Paul\MPLABXProjects\analogicodigital.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"51
+[v main@val val `i  1 a 2 1 ]
+"62
+} 0
